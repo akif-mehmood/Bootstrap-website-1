@@ -1,2 +1,21 @@
-/*  */
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Nastaliq+Urdu:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    color: #343f52;
+}
+h5.heading {
+    font-size: 65px !important;
+    color: black;
+}
+p.heading-line {
+    font-size: 28px;
+    color: gray;
+}
+.icon-img >img {
+    width: 100px;
+}
+.back-img {
+    background-image: url(./img/imgi_124_bg38.jpg);
+    background-size: cover;
+}
