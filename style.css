@@ -71,3 +71,9 @@ button.custom-btn.btn.btn-secondary {
 .we-are {
     background-color: #ffffff;
 }
+.card > img {
+    padding: 20px;
+}
+h3.card-heading {
+    padding: 0px 0px 15px 0px;
+}
