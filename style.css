@@ -4,6 +4,14 @@
 *{
     color: #343f52;
 }
+h1.sec-head {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Roboto';
+}
+p{
+    text-align: justify;
+}
 h5.heading {
     font-size: 65px !important;
     color: black;
@@ -18,4 +26,48 @@ p.heading-line {
 .back-img {
     background-image: url(./img/imgi_124_bg38.jpg);
     background-size: cover;
+}
+button.custom-btn.btn.btn-secondary {
+    border-radius: 30px;
+    padding: 12px 40px;
+}
+.solution-img {
+    background-image: url(./img/imgi_125_bg39.jpg);
+    background-size: cover;
+}
+.work-text {
+    background-color: #f7f7f7;
+}
+.solution-text {
+    background-color: #f7f7f7;
+}
+ .counter {
+      font-size: 60px;
+      
+ }
+ .ratings {
+    display: inline-block;
+    position: relative;
+    width: 5rem;
+    height: 3.8rem;
+    font-size: 1.9rem;
+    line-height: 1;
+}
+.ratings:before {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fcc032;
+    content: "\2605\2605\2605\2605\2605";
+    overflow: hidden;
+}
+.rounded > img {
+    border-radius: 25px !important;
+}
+.we-are {
+    background-color: #ffffff;
 }
