@@ -3,9 +3,10 @@
 
 *{
     color: #343f52;
+    font-family: "Manrope", sans-serif;;
 }
 h1.sec-head {
-    font-size: 40px;
+    font-size: 39px;
     font-weight: 800;
     font-family: 'Roboto';
 }
@@ -15,6 +16,10 @@ p{
 h5.heading {
     font-size: 65px !important;
     color: black;
+        font-weight: 900;
+}
+h5 {
+        font-weight: 900;
 }
 p.heading-line {
     font-size: 28px;
@@ -29,7 +34,7 @@ p.heading-line {
 }
 button.custom-btn.btn.btn-secondary {
     border-radius: 30px;
-    padding: 12px 40px;
+    padding: 10px 33px;
 }
 .solution-img {
     background-image: url(./img/imgi_125_bg39.jpg);
@@ -76,4 +81,33 @@ button.custom-btn.btn.btn-secondary {
 }
 h3.card-heading {
     padding: 0px 0px 15px 0px;
+}
+.footer {
+    background-color: #f7f7f7;
+}
+.footer-list li {
+    line-height: 32px;
+    list-style: none;
+    font-size: 15px;
+}
+ul {
+    padding: 0px;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+button.submit-btn.btn.btn-dark{
+    margin-top: 15px;
+    border-radius: 30px;
+    padding: 8px 35px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 767px) {
+  h1.sec-head {
+    font-size: 21px;
+    padding-top: 10px;
+}
 }
